@@ -11,6 +11,11 @@ We provide code support and configuration files to reproduce the results in the 
 
 Another feature of this repo is the demonstration of an `anchor-free detector`, which can be as effective as state-of-the-art anchor-based detection methods. The anchor-free detector can utilize either `bounding box` or `RepPoints` as the basic object representation.
 
+<div align="center">
+  <img src="demo/reppoints.png" width="400px" />
+  <p>Learning RepPoints in Object Detection.</p>
+</div>
+
 ## Usage
 a. Clone the repo:
 ```
