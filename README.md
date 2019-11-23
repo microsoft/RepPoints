@@ -27,11 +27,11 @@ sh ./init.sh
 ```
 c. Run experiments with a speicific configuration file:
 ```
-./mmdetection/tools/dist_train.py ${path-to-cfg-file} ${num_gpu} --validate
+./mmdetection/tools/dist_train.sh ${path-to-cfg-file} ${num_gpu} --validate
 ```
 We give one example here:
 ```
-./mmdetection/tools/dist_train.py ./configs/reppoints_moment_r101_fpn_2x_mt.py 8 --validate
+./mmdetection/tools/dist_train.sh ./configs/reppoints_moment_r101_fpn_2x_mt.py 8 --validate
 ```
 
 ## Citing RepPoints
